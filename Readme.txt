@@ -1,1 +1,1 @@
-C solution Basic Problem of Baekjoon
+C and C++ solution Basic Problem of Baekjoon
