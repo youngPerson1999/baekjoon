@@ -28,6 +28,7 @@ int findZ(int c, int r, int i, int l,int x, int y){
     if(c>=x+(k/2)&&r>=y+(k/2)){ //4
         return findZ(c,r,i-1,l+w*3,x+k/2,y+k/2);
     }
+    return -1;
 }
 int main(){
     ios_base :: sync_with_stdio(false); 
