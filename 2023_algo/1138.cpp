@@ -28,7 +28,6 @@ int main(){
             }
             if(order[j] > i)
                 cnt++;
-            
         }
     }
     for (int i = 0; i < n; i++){
