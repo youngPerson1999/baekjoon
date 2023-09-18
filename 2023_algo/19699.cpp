@@ -41,10 +41,10 @@ void solve(int n, int m, vector<int>cow){
     for(int i = 1 ; i <= m; i ++){
         big += cow[n - i];
     }
-    
+
     int *num = findPrime(big);
 
-    combination(0, 0, num, cow, 0);    
+    combination(0, 0, num, cow, 0); 
 }
 
 int main(){
